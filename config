@@ -1,0 +1,21 @@
+#!/bin/bash
+# Configuration file for the double-nodes vpn system
+
+# client-side
+
+export server=127.0.0.1
+export port=1194
+export localaddr=10.8.0.23
+export remoteaddr=10.8.0.1
+export secert=static.key
+
+# server-side
+
+export s_port=11941
+export s_ca=ca.crt
+export s_cert=server.crt
+export s_key=server.key
+export s_dh=dh1024.pem
+export s_ippool=10.8.1.0
+export s_netmask=255.255.255.0
+export s_subnet=10.8.1.0/24

@@ -1,0 +1,5 @@
+#NTP from shu
+0 0 * * * ntpdate -u ntp.shu.edu.cn
+#Chn route
+0 0 */10 * * /etc/openvpn/chnroute-update.sh
+0 0 */10 * * /sbin/service openvpn restart

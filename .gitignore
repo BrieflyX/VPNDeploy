@@ -1,0 +1,3 @@
+# Ignoring the real key file to avoid leaking
+*.key
+*.crt
